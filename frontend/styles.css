@@ -1,0 +1,27 @@
+html {
+  background-color: rgb(243, 235, 235);
+  padding: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 1px;
+}
+.toAddress {
+  padding: 2px;
+}
+.toAddress h3 {
+  margin: 0;
+  line-break: auto;
+}
+.to {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.body {
+  position: fixed;
+  top: 35%;
+}
+.footer {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+}
