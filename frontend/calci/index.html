@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calci">
+            <form action="" class="calculator" >
+                <input id="input"   type="text" value="" placeholder="">
+                <div class="buttons">
+                    <button  onclick="handleclearAll()" id="clearAll">Ac</button>
+                    <button onclick="" id="delete"><-</button>
+                    <button onclick="handleChange(1)" id="number" value="1">1</button>
+                    <button onclick="handleChange(2)" id="number" value="2">2</button>
+                    <button  onclick="handleChange(3)" id="number" value="3">3</button>
+                    <button onclick="" id="multiply">*</button>
+                    <button  onclick="stop()"  id="ans">=</button>
+                    <button onclick="handleChange(4)" id="number" value="4">4</button>
+                    <button onclick="handleChange(5)"id="number"value="5">5</button>
+                    <button onclick="handleChange(6)" id="number" value="6">6</button>
+                    <button onclick="" id="q">/</button>
+                    <button onclick="handleSubstration('-')" id="sub">-</button>
+                    <button onclick="handleChange(7)" id="number" value="7">7</button>
+                    <button onclick="handleChange(8)" id="number" value="8">8</button>
+                    <button onclick="handleChange(9)" id="number" value="9">9</button>
+                    <button onclick="" id=".">.</button>
+                    <button onclick="handleAddition('+')" id="add">+</button>
+                    <button onclick="" id="rem">%</button>
+                    <button onclick="handleChange(0)" id="number" value="0">0</button>
+                    
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

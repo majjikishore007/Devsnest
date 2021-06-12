@@ -1,0 +1,76 @@
+html {
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  display: flex;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  margin: 20px;
+  max-width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.calci input[type="text" ] {
+    width: 500px;
+    height: 60px;
+    outline: none;
+    font-size: 40px;
+    border-radius: 30px;
+}
+.calci{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    box-shadow: rgba(2, 2, 27, 0.2) 0px 7px 29px 0px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+}
+.buttons{
+
+   padding: 40px;
+   width: 500px;
+   height: 400px;
+   margin-top: 20px;
+   display: flex;
+   flex-basis: 100%;
+   justify-content: space-around;
+   flex-direction: row;
+   flex-wrap: wrap;
+  
+}
+.buttons > button,span{
+    display: block;
+    padding: 30px;
+    margin: 0;
+    height: 90px;
+    width: 90px;
+    font-size: 40px;
+    border-radius: 20px;
+    box-shadow: lightblue;
+    outline: none;
+}
+.buttons > button:hover{
+    color: lightcoral;
+}
+#last{
+    display: flex;
+    justify-content: flex-end;
+}
