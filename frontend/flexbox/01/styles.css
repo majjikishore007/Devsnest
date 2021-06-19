@@ -1,21 +1,21 @@
-*{
-    color: #fff;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  color: #fff;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-html{
-    background : linear-gradient(to right, #92a2a5,#9171c4);
-    min-width: 100vh;
-    min-width: 20px;
+html {
+  background: linear-gradient(to right, #92a2a5, #9171c4);
+  min-width: 100vh;
+  min-width: 20px;
 }
-.container >div{
-    color: #fff;
-    background-color: rgb(0,0,255,.02);
-    border: 1px solid #fff;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
+.container {
+  color: #fff;
+  background-color: rgb(0, 0, 255, 0.02);
+  border: 1px solid #fff;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
 }
-.container >div:hover{
-    background-color: rgba(223, 14, 188, 0.856);
+.container > div:hover {
+  background-color: rgba(223, 14, 188, 0.856);
 }
