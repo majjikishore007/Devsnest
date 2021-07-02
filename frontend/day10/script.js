@@ -87,7 +87,7 @@ function fail() {
   setTimeout(() => {
     // one.classList.remove("flip");
     two.classList.remove("flip");
-   suffle()
+  //  suffle()
   }, 1000);
 }
 function reset() {

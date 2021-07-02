@@ -90,11 +90,11 @@ const showResult = () => {
     next.innerText="Results"
     var card = document.createElement("div");
     card.className = "card";
-    if (score > 4) {
+    if (score > 30) {
         card.innerHTML = `<h1>Total score is ${score}</h1>
             <span> congrats! 😎 </span>
         `;
     }
-    card.innerHTML =`<h1>Total score is ${score}</h1>`;
+    else card.innerHTML =`<h1>Total score is ${score}</h1>`;
     container.appendChild(card);
 }
