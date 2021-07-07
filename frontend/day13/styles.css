@@ -1,0 +1,77 @@
+
+body{
+  width: 100%;
+  height: 100vh;    
+  background:#758283;
+}
+.container{
+display:flex;
+flex-direction: row;
+}
+#header{
+    width:100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding:20px;
+    /* background: linear-gradient(#E1A2B8, #9F2BC1); */
+    color: #03203C;
+    font-family: 'Times New Roman', Times, serif;
+}
+#meme-generator{
+    position:absolute;
+    top:100px;
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background:linear-gradient()
+}
+input[type="text"]{
+    padding:10px;
+    border-radius: 20px;
+    border:#6F00ED;
+    outline: none;
+}
+button{
+    width:140px;
+    padding:25px;
+    background:#FF4331;
+    border-radius: 20px;
+    border:#FF4331;
+    color: aliceblue;
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+
+}
+button:hover{
+    background:#FF9F4A
+}
+.display{
+    position:absolute;
+    top:300px;
+   left:30px;
+  display:grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit ,minmax(300px ,1fr));
+  grid-column-gap:16px;
+}
+.card{
+  /* border:2px solid #FF4331; */
+  margin:17px auto;
+}
+.card img{
+    width:100%;
+    height:405px;
+}
+.dnd{
+    position:relative;
+    left:70px;
+    text-decoration: none;
+    padding:10px;
+    background:#FF4331;
+    border-radius: 10px;
+}
