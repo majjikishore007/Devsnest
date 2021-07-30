@@ -1,0 +1,79 @@
+:root {
+    --ff-primary: "Roboto", sans-serif;
+    --ff-accent: "Playfair Display", serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #e43a15;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e65245, #e43a15);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e65245, #e43a15);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container--narrow {
+    padding: 3rem 0;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 80.4rem);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-row-gap: 3rem;
+    grid-column-gap: 5rem;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+.text-center {
+    text-align: center;
+    font-family: var(--ff-primary);
+    font-size: 1.4em;
+}
+
+.card {
+    width: 23rem;
+    background-color: white;
+    border-radius: 23px;
+    background: linear-gradient(145deg, #f43e16, #cd3413);
+    box-shadow: 8px 8px 18px #80200c, -8px -8px 18px #ff541e;
+}
+
+img:hover {
+    transform: scale(1.09);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 30px;
+    width: 26rem;
+    height: 23rem;
+}
+
+input {
+    margin-top: 3.8em;
+    padding: 1em;
+    margin-left: 1em;
+    outline: none;
+}
+
+button {
+    padding: 1em;
+    margin-top: 0.3em;
+    background: blue;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 1em
+}
