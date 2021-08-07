@@ -1,10 +1,15 @@
 import React from "react";
 import Home from "./components/Home";
 import "./App.css";
+import Demo from "./day23Hooks/demo";
 const App = () => {
   return (
     <div>
-      <Home></Home>
+      {/* <Home></Home> 
+    
+    
+    */}
+      <Demo></Demo>
     </div>
   );
 };
