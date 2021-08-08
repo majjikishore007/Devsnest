@@ -1,0 +1,21 @@
+
+.App{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  height:80vh;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  width:min(40%,40em);
+  border:1px solid black;
+}
+input{
+  padding:2em;
+  width: 12em;
+  font-size: 1.2em;
+}
