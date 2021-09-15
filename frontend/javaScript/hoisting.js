@@ -16,13 +16,24 @@
 
 // bigTipper("200");
 
-console.log(name);
-var name = "hitesh";
+// console.log(name);
+// var name = "hitesh";
 
-function sayName() {
-  var name = "MR. H";
-  console.log(name);
-}
-sayName();
+// function sayName() {
+//   var name = "MR. H";
+//   console.log(name);
+// }
+// sayName();
 
-console.log(name);
+// console.log(name);
+
+    let x, y;
+    try{
+        throw new Error();
+    }
+    catch(x){
+        (x=1),(y=2);
+        console.log(x);
+    }
+    console.log(x);
+      console.log(y);
