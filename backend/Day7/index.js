@@ -7,7 +7,11 @@ app.get("/", (req, res) => {
   //   res.send("hello");
   res.status(300).json({ message: "something went wrong" });
 });
+//match acd path
+app.get("/ab?cd", (req, res) => {
 
+});
+app.get("/ab?cd", (req, res) => {});
 // security check
 // performance check
 // edge case check
