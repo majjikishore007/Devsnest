@@ -1,0 +1,9 @@
+// creating an aws account
+
+// making new ec2 instances
+// spinning up a new ubuntu instance
+
+// conntecting with the instance throughout shh 
+
+// creating a node environment for the backend appliaction 
+
